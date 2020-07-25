@@ -1,1 +1,1 @@
-visit the page https://covidcare19.netlify.app/
+Visit the link : [Click here](https://covidcare19.netlify.app/).
