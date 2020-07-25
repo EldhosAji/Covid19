@@ -1,0 +1,116 @@
+.aboutus {
+    display: flex;
+    align-items: center;
+}
+
+.aboutus .cont {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    line-height: auto;
+    margin-top: 5vh;
+    justify-content: space-between;
+}
+
+.aboutus .cont div img {
+    display: flex;
+    height: 100%;
+    width: 120px;
+    margin-top: 30vh;
+}
+
+.aboutus .cont span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.aboutus .cont span h2 {
+    line-height: 0;
+    font-size: 1.3rem;
+    color: #FB4C47;
+}
+
+.aboutus .cont span h1 {
+    line-height: 0;
+    color: #035755;
+}
+
+.aboutus .cont span p {
+    display: flex;
+    text-align: start;
+    color: #4B4F51;
+    width: 30vw;
+}
+
+.aboutus .cont .btn {
+    padding: 10px 20px 10px 20px;
+    border: rgba(251, 76, 71, 0.15) 1px solid;
+    border-radius: 20px;
+    background-color: rgba(251, 76, 71, 0.15);
+}
+
+.aboutus .cont .btn:hover {
+    cursor: pointer;
+}
+
+.aboutus .cont .btn span {
+    color: #FA5652;
+    font-size: 0.8rem;
+}
+
+.aboutus img {
+    display: flex;
+    flex: 1;
+    object-fit: contain;
+    width: 80px;
+}
+
+@media only screen and (max-width: 830px) {
+    #dt {
+        display: none;
+    }
+    .aboutus .cont span h2 {
+        line-height: 0;
+        font-size: 1.1rem;
+        color: #FB4C47;
+    }
+    .aboutus .cont span h1 {
+        line-height: 0;
+        font-size: 1.2rem;
+        color: #035755;
+    }
+    .aboutus .cont span p {
+        display: flex;
+        text-align: start;
+        color: #4B4F51;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutus img {
+        opacity: 0.3;
+        position: absolute;
+        width: 80vw;
+    }
+    .aboutus .cont span {
+        justify-content: center;
+        align-items: center;
+        margin: 10vw;
+    }
+    .aboutus .cont span p {
+        text-align: center;
+        width: 80vw;
+    }
+    .aboutus .cont .btn {
+        padding: 10px 20px 10px 20px;
+        border: rgba(251, 76, 71, 0.15) 1px solid;
+        border-radius: 20px;
+        background-color: rgba(251, 76, 71, 0.15);
+        width: 90px;
+        height: 20px;
+    }
+    .aboutus .cont .btn span {
+        margin: 0;
+    }
+}

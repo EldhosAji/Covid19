@@ -1,0 +1,35 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h2 {
+    line-height: 0;
+    font-size: 1.3rem;
+    color: #FB4C47;
+}
+
+.head h1 {
+    line-height: 0;
+    color: #035755;
+}
+
+.head p {
+    color: #4B4F51;
+    text-align: center;
+    width: 30vw;
+}
+
+@media only screen and (max-width: 830px) {
+    .head p {
+        width: 80vw;
+    }
+    .head h1 {
+        font-size: 1.2rem;
+    }
+    .head h2 {
+        font-size: 1.3rem;
+    }
+}

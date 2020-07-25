@@ -1,0 +1,12 @@
+.symp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10vw;
+    margin-top: 0;
+}
+
+.symp img {
+    width: 100%;
+}
